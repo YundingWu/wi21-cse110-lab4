@@ -13,24 +13,24 @@
 10. The same as above.
 11. The same as above.
 12. The same as above. The program stops at the second loop when trying to reassign a `const` variable.
-13.   A. `student.name`  
+13.   A. `student.name`   
     B. `student['Grad Year']`  
     C. `student.greeting()`  
     D. `student['Favorite Teacher'].name`  
     E. `student.courseLoad[0]`
-14. A. `'32'`2 is converted to a string because`'3'` is a string and `+` is treated as a string concatenation. 
+14. A. `'32'`2 is converted to a string because`'3'` is a string and `+` is treated as a string concatenation.  
     B. `1`  3 is converted to a number and `-` is subtraction.  
     C. `3`  `null` is converted to the number 0.  
     D. `'3null'`  `null` is converted to a string to perform string concatenation.  
     E. `4`  `true` is converted to a number .  
-    F. `0`  Both `false` and `null` are 0 after they are converted to a number.
-    G. `'3undefined'`  `undefined` converted to string.
+    F. `0`  Both `false` and `null` are 0 after they are converted to a number.  
+    G. `'3undefined'`  `undefined` converted to string.  
     H. `NaN`  `undefined` is `NaN` after it's converted to a number.
-15. A. `true`  `'2'` is converted to a number and it's greater than 1.
-    B. `false`  This is a comparison between strings and `'2'` is greater than `'1'`.
-    C. `true`  `'2'` converted to a number.
-    D. `false` Strict equality check and they are different types.
-    E. `false` `true` converted to a number is 1.
+15. A. `true`  `'2'` is converted to a number and it's greater than 1.  
+    B. `false`  This is a comparison between strings and `'2'` is greater than `'1'`.  
+    C. `true`  `'2'` converted to a number.  
+    D. `false` Strict equality check and they are different types.  
+    E. `false` `true` converted to a number is 1.  
     F. `true`  `Boolean(2)` is `true`.
 16. When using `==` to compare different types, both values are converted to numbers. When using `===`, types are not converted so the comparison between variables of different types returns `false` immediately.
 17. `How are you?` is printed. `2==true` is false because `true` is 1 converted to a number. `2` itself is true, so the second condition is satisfied. The 3rd condition is skipped because of `else`.
